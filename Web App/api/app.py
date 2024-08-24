@@ -26,7 +26,7 @@ def prepare_image(img_path):
     return img_array
 
 
-model = load_my_model('Brain_Tumor_Classification.keras')
+model = load_my_model('./model/Brain_Tumor_Classification.keras')
 
 
 @app.route('/', methods=['GET'])
